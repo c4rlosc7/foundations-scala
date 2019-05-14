@@ -19,7 +19,7 @@ object HelloTypes {
 
     val converter: String => String = ( name ) => name.toUpperCase()
     val myFilter: String => Boolean = ( name ) => name.startsWith("A")
-    
+
     val names: List[String] = List( "Ann", "Mary", "Jane" )
     val upperNames: List[String] = names.map( converter )
 
