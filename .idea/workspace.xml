@@ -1,56 +1,423 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f2b7bb1-bcd9-4301-8429-fc5131b29f82" name="Default Changelist" comment="" />
+    <list default="true" id="e5493624-6d4a-4862-85c0-dbbb992bae3d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/foundations/hello/HelloConfig.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/foundations/hello/HelloWorld.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/foundations/square/Square.scala" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/Scala.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/assets/Scala_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/.idea/hydra.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/.idea/modules/scala-hello-world-build.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/.idea/modules/scala-hello-world.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/.idea/sbt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/.idea/scala_compiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/build.sbt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/build.properties" afterPath="$PROJECT_DIR$/project/build.properties" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/config-classes/$0b1a1d6e650baa25cca4.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/config-classes/$4420a433a3198c371b3c.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/config-classes/$6dc3a1a5aedaf0a383e7.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/config-classes/$d52bd1f9265b0361ce16.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-hello-world-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-hello-world-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-hello-world-build-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/$global/update/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/compile/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/src/main/scala/HelloWorld.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/.history" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/default/scala-hello-world$sources/0.1/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/default/scala-hello-world$sources/0.1/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/default/scala-hello-world_2.12/0.1/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/default/scala-hello-world_2.12/0.1/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world$sources-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/default-scala-hello-world_2.12-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/update/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scala-hello-world/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/hydra.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/modules/square-build.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/modules/square.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/sbt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/scala_compiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change beforePath="$PROJECT_DIR$/square/project/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/plugins.sbt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/default/square-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/default/square-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-square-build-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/$global/$global/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/$global/update/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/compile/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/src/main/scala/square.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/src/test/scala/FunctionsSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/com.foundations.hello/HelloTestSpec.scala" />
+      <change beforePath="$PROJECT_DIR$/square/target/.history" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/default/square$sources/0.1/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/default/square$sources/0.1/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/default/square_2.12/0.1/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/default/square_2.12/0.1/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square$sources-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/default-square_2.12-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/update/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/square/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2092227374">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="306">
+                <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/com/foundations/square/Square.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/foundations/hello/HelloWorld.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/HelloTestSpec.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/foundations/hello/HelloConfig.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com.foundations.hello/HelloTestSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="foundations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="foundations" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="foundations" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloConfig$" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foundations-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foundations-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com.foundations.hello" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/scala/com.foundations.hello" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,81 +431,357 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    </configuration>
+    <configuration name="HelloConfig" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.foundations.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.foundations.hello.HelloConfig" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="foundations-scala" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloConfig" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1557839600977" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="foundations-scala" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="foundations-scala" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="foundations-scala-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../banking" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../events" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../td-monix" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../testdrive-gatling" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../testdrive-xml" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../metalgear/accounting" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../metalgear/clippings" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../metalgear/flink" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../metalgear/foxhound" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../metalgear/frdomain" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../metalgear/nastasha" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../metalgear/play-redis-samples" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../metalgear/reminder" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../referencia/td-mslibaws" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../s4n/play-java-starter-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/asesoria-venta-vida" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/bases/ms-base" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/bases/ms-base-ohs" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/componente-validaciones-autos" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/evaluacion-vida" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-autos-ayv" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-ayv-cotizador" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-ayv-salud" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-clientes-cotizador" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-fasecolda" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-financiacion" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-lib" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-ohs-autos" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-ohs-salud" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/ms-regulacion" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/prospectos" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/tarifador-vida" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/tarifador-voluntarias" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sura/tracking/ms-tracking-artefacto" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../tolkien/khazad-dum" value="PREVIEW" />
+        <entry key="$USER_HOME$/reminder" value="PREVIEW" />
+        <entry key="/media/kmell/TOSHIBA EXT/addison-global-test" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3f2b7bb1-bcd9-4301-8429-fc5131b29f82" name="Default Changelist" comment="" />
-      <created>1557759894290</created>
+      <changelist id="e5493624-6d4a-4862-85c0-dbbb992bae3d" name="Default" comment="" />
+      <created>1557839112267</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557759894290</updated>
+      <updated>1557839112267</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="SQL Formatter" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.75750834" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/foundations/placeholder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/square.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/square/src/test/scala/FunctionsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/square/src/main/scala/square.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/foundations/hello/HelloWorld.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com.foundations.hello/HelloTestSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/foundations/square/Square.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/foundations/hello/HelloConfig.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="306">
+            <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
-      <state key="GlobalLibrariesConfigurable.UI">
+      <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Python 3.7 interpreter library</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
